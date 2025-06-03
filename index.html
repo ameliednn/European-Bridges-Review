@@ -220,25 +220,25 @@
 
         // Choisir une icône différente pour chaque pays (exemple)
         let icon = iconRed;
-        if (country === "Germany") icon = iconBlue;
+        if (country === "Germany") icon = iconGreen;
         if (country === "Norway") icon = iconGreen;
-        if (country === "Croatia") icon = iconRed;
-        if (country === "Belgium") icon = iconBlue;
-        if (country === "France") icon = iconGreen;
-        if (country === "Austria") icon = iconBlue;
-        if (country === "Bulgaria") icon = iconRed;
-        if (country === "Netherlands") icon = iconBlue;
+        if (country === "Croatia") icon = iconGreen;
+        if (country === "Belgium") icon = iconRed;
+        if (country === "France") icon = iconRed;
+        if (country === "Austria") icon = iconRed;
+        if (country === "Bulgaria") icon = iconGreen;
+        if (country === "Netherlands") icon = iconGreen;
         if (country === "Spain") icon = iconBlue;
         if (country === "UK") icon = iconBlue;
         if (country === "Czechia") icon = iconRed;
         if (country === "Estonia") icon = iconBlue;
-        if (country === "Italy") icon = iconBlue;
-        if (country === "Ireland") icon = iconRed;
-        if (country === "Latvia") icon = iconGreen;        
+        if (country === "Italy") icon = iconGreen;
+        if (country === "Ireland") icon = iconBlue;
+        if (country === "Latvia") icon = iconBlue;        
 	if (country === "Luxembourg") icon = iconBlue;
-	if (country === "Slovakia") icon = iconBlue;
+	if (country === "Slovakia") icon = iconRed;
 	if (country === "Greece") icon = iconRed;
-	if (country === "Hungary") icon = iconGreen;
+	if (country === "Hungary") icon = iconRed;
 
         L.marker(latlng, { icon }).addTo(map).bindPopup(popupContent);
       }
