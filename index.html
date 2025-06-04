@@ -251,12 +251,12 @@
     }
     var legend = L.control({ position: 'bottomright' });
 
-legend.onAdd = function (map) { 
+legend.onAdd = function (map) {
   var div = L.DomUtil.create('div', 'legend');
-  div.innerHTML += "<strong>Légende</strong><br><br>";
-  div.innerHTML += '<i style="background:#007bff; width: 12px; height: 12px; display:inline-block; border-radius: 50%; margin-right: 6px;"></i> 2 projects <br>';
-  div.innerHTML += '<i style="background:#28a745; width: 12px; height: 12px; display:inline-block; border-radius: 50%; margin-right: 6px;"></i> 3 projects or more <br>';
-  div.innerHTML += '<i style="background:#fd7e14; width: 12px; height: 12px; display:inline-block; border-radius: 50%; margin-right: 6px;"></i> 1 project <br>';
+  div.innerHTML += "<strong>Legend</strong><br><br>";
+  div.innerHTML += '<i style="background:#28a745; width: 12px; height: 12px; display:inline-block; border-radius: 50%; margin-right: 6px;"></i> More than 3 projects<br>';
+  div.innerHTML += '<i style="background:#007bff; width: 12px; height: 12px; display:inline-block; border-radius: 50%; margin-right: 6px;"></i> 2 projects<br>';
+  div.innerHTML += '<i style="background:#fd7e14; width: 12px; height: 12px; display:inline-block; border-radius: 50%; margin-right: 6px;"></i> 1 project<br>';
   return div;
 };
 
